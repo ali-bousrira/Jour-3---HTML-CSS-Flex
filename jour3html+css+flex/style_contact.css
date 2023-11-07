@@ -1,0 +1,32 @@
+header {
+    background-color: rgb(118, 122, 133);
+    height: 50px;
+    padding: 1em;
+}
+body {
+    background-color:rgb(255, 255, 255);
+    margin: 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+
+}
+nav a {
+    float: left;
+    margin-left: 20px;
+    font-size: 22px;
+}
+nav input {
+    float: right;
+    border-radius: 15px 15px 15px;
+    height: 25px;
+}
+footer {
+    background-color: rgb(118, 122, 133);
+    padding: auto;
+}
+#msg {
+    height: 280px;
+    width: 500px;
+}

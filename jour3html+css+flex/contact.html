@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style_contact.css">
+</head>
+<body>
+    <header>
+        <nav >
+            <div>
+                <ul>
+                    <li><a href="index.html">Homme</a></li>
+                    <li><a href="entreprise.html">Entreprise</a></li>
+                    <li><a href="realisation.html">Réalisation</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div >
+                <input class="bar_rech" type="search" id="site-search" name="q" class="bar_rech"/>
+            </div>
+        </nav>
+      </header>
+      <h1>Nous contactes.</h1>
+      <form class="flex-form" method="post">
+        <section>
+            <div>
+                <label for="nationalite">Choisiser une nationalité</label>
+                <select name="nationalité" id="nationalité">
+                    <option value="">choi de nationalité</option>
+                    <option value="Mr">Mr</option>
+                    <option value="Mme">Mme</option>
+                    <option value="Autre">Autre</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="name">Nom&nbsp;:</label><br>
+                <input type="text" id="name" name="user_name"/>
+            </div>
+            <br>
+            <div>
+                <label for="mail">email&nbsp;:</label><br>
+                <input type="email" id="mail" name="user_mail" />
+            </div>
+            <br>
+            <div>
+                <label for="msg">Message&nbsp;:</label><br>
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
+            <br>
+            <div >
+                <input type="checkbox" id="politic" name="politic" class="text">
+                <label for="politics">Aprouver les <a>UELA</a></label>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Envoyer le formulaire" />
+            </div>
+        </section>
+      </form>
+      <footer>
+        
+      </footer>
+</body>
+</html>

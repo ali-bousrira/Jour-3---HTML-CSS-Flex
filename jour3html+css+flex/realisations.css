@@ -1,0 +1,39 @@
+header {
+    background-color: rgb(118, 122, 133);
+    height: 50px;
+    padding: 1em;
+}
+body {
+    background-color:rgb(255, 255, 255);
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+
+}
+nav a {
+    float: left;
+    margin-left: 20px;
+    font-size: 22px;
+}
+nav input {
+    float: right;
+    border-radius: 15px 15px 15px;
+    height: 25px;
+}
+.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 400px));
+    grid-template-rows: masonry;
+  }
+img {
+    width: 400px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+footer {
+    background-color: rgb(118, 122, 133);
+    padding: 1em;    
+}

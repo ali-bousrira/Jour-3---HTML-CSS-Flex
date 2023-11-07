@@ -1,0 +1,41 @@
+header {
+    background-color: rgb(118, 122, 133);
+    height: 50px;
+    padding: 1em;
+}
+body {
+    background-color:rgb(255, 255, 255);
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+
+}
+nav a {
+    float: left;
+    margin-left: 20px;
+    font-size: 22px;
+}
+nav input {
+    float: right;
+    border-radius: 15px 15px 15px;
+    height: 25px;
+}
+.flex-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    grid-auto-rows: minmax(auto, auto);
+}
+.flex-images img {
+    width: 130px;
+    height: auto;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: rgb(118, 122, 133);
+    padding: 1em;    
+}
